@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "search"
+version = "0.1.0"
+description = "Smart web info extractor using Google dorks and SerpAPI"
+authors = [{ name = "deltaparticle", email = "you@example.com" }]
+requires-python = ">=3.6"
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "google-search-results",
+    "PyPDF2"
+]
